@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SportsDataPanelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="GrandSlamInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Year" Type="varchar" MaxLength="10" />
+    <Property Name="UsOpen" Type="varchar" MaxLength="30" />
+    <Property Name="AustralianOpen" Type="varchar" MaxLength="30" />
+    <Property Name="RolandGarros" Type="varchar" MaxLength="30" />
+    <Property Name="Wimbledon" Type="varchar" MaxLength="30" />
+    <Property Name="PlayerId" Type="int" />
+  </EntityType>
+  <EntityType Name="Matches">
+    <Key>
+      <PropertyRef Name="MatchId" />
+    </Key>
+    <Property Name="MatchId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContestGroupId" Type="int" Nullable="false" />
+    <Property Name="ContestGroupRoundId" Type="int" />
+    <Property Name="MatchStatusId" Type="smallint" Nullable="false" />
+    <Property Name="MatchDate" Type="datetime" Nullable="false" />
+    <Property Name="IsLive" Type="bit" Nullable="false" />
+    <Property Name="Lights" Type="bit" Nullable="false" />
+    <Property Name="HomeTeamShirt" Type="nvarchar" MaxLength="50" />
+    <Property Name="AwayTeamShirt" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrentMinutes" Type="smallint" />
+    <Property Name="MatchStartTime" Type="datetime" />
+    <Property Name="FirstHalfEndTime" Type="datetime" />
+    <Property Name="MinuteDifference" Type="smallint" />
+    <Property Name="MinutePlusBit" Type="bit" />
+    <Property Name="FirstToServe" Type="nvarchar" MaxLength="3" />
+    <Property Name="SportCCMatchId" Type="nvarchar" MaxLength="20" />
+    <Property Name="LastUpdatedTime" Type="datetime" />
+    <Property Name="IsLeagueTableUpdated" Type="bit" />
+    <Property Name="AssignedByUserId" Type="uniqueidentifier" />
+    <Property Name="AssignedByUserName" Type="nvarchar" MaxLength="256" />
+    <Property Name="AssignDate" Type="datetime" />
+    <Property Name="AssignedToUserId" Type="uniqueidentifier" />
+    <Property Name="SportingLifeMatchDate" Type="datetime" />
+    <Property Name="CrawlerLink" Type="nvarchar" MaxLength="200" />
+    <Property Name="AutoCrawl" Type="bit" />
+    <Property Name="CreatedByRole" Type="nvarchar" MaxLength="256" />
+    <Property Name="ProviderMatchId" Type="bigint" />
+    <Property Name="Deleted" Type="bit" />
+    <Property Name="SharkScoresMatchId" Type="int" />
+    <Property Name="CrawlFrom" Type="int" />
+    <Property Name="SportingbetMatchId" Type="int" />
+    <Property Name="LiveScoreMatchId" Type="int" />
+    <Property Name="change_stamp" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="MatchScores">
+    <Key>
+      <PropertyRef Name="MatchScoreId" />
+    </Key>
+    <Property Name="MatchScoreId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchId" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ScoreInfoTypeId" Type="smallint" Nullable="false" />
+    <Property Name="HomeScore" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="AwayScore" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="TieBreak" Type="bit" />
+    <Property Name="HomeTieBreakScore" Type="nvarchar" MaxLength="3" />
+    <Property Name="AwayTieBreakScore" Type="nvarchar" MaxLength="3" />
+    <Property Name="EventCode" Type="bigint" />
+    <Property Name="Verified" Type="bit" />
+    <Property Name="change_stamp" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="PlayerOverview">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CareerSingleTitle" Type="int" />
+    <Property Name="CareerMatchesWon" Type="int" />
+    <Property Name="YTDMatchWon" Type="int" />
+    <Property Name="CareerDoublesTitle" Type="int" />
+    <Property Name="CareerMatchesLost" Type="int" />
+    <Property Name="YTDMatchesLost" Type="int" />
+    <Property Name="WeekRankSingle" Type="int" />
+    <Property Name="HighRankSingle" Type="int" />
+    <Property Name="PlayerId" Type="int" />
+    <Property Name="YTDServiceGamesWon" Type="varchar" MaxLength="100" />
+    <Property Name="YTDReturnGamesWon" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Players">
+    <Key>
+      <PropertyRef Name="PlayerId" />
+    </Key>
+    <Property Name="PlayerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SystemId" Type="bigint" />
+    <Property Name="SportId" Type="smallint" Nullable="false" />
+    <Property Name="CountryId" Type="smallint" />
+    <Property Name="GenderId" Type="smallint" Nullable="false" />
+    <Property Name="PlayerPositionId" Type="smallint" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="OtherName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hand" Type="nvarchar" MaxLength="15" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Height" Type="nvarchar" MaxLength="20" />
+    <Property Name="Weight" Type="nvarchar" MaxLength="20" />
+    <Property Name="DateOfBirth" Type="datetime" />
+    <Property Name="SportCCPlayerId" Type="nvarchar" MaxLength="15" />
+    <Property Name="MarketValue" Type="nvarchar" MaxLength="30" />
+    <Property Name="Foot" Type="nvarchar" MaxLength="50" />
+    <Property Name="PlayerAgent" Type="nvarchar" MaxLength="50" />
+    <Property Name="BirthCityId" Type="smallint" />
+    <Property Name="BirthCountryId" Type="smallint" />
+    <Property Name="PlayerImage" Type="nvarchar" MaxLength="500" />
+    <Property Name="SportingLifePlayerId" Type="bigint" />
+    <Property Name="MatchedWithProvider" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedByRole" Type="nvarchar" MaxLength="256" />
+    <Property Name="SharkScoresId" Type="int" />
+    <Property Name="SoccerwayPlayerId" Type="int" />
+    <Property Name="Age" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryOfBirth" Type="nvarchar" MaxLength="50" />
+    <Property Name="PlaceOfBirth" Type="nvarchar" MaxLength="50" />
+    <Property Name="StatsComPlayerId" Type="int" />
+    <Property Name="change_stamp" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="RankingPlayersProfiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Move" Type="int" />
+    <Property Name="MoveType" Type="varchar" MaxLength="5" />
+    <Property Name="Ranking" Type="int" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Points" Type="int" />
+    <Property Name="TournPlayed" Type="int" />
+    <Property Name="PointDropping" Type="int" />
+    <Property Name="NextBest" Type="int" />
+    <Property Name="SportCCPlayerId" Type="int" />
+    <Property Name="AtpId" Type="varchar" MaxLength="30" />
+    <Property Name="PlayerLink" Type="varchar" MaxLength="100" />
+    <Property Name="CoachName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Residence" Type="varchar" MaxLength="50" />
+    <Property Name="PlayerPosition" Type="varchar" MaxLength="50" />
+    <Property Name="TurnPro" Type="varchar" MaxLength="10" />
+    <Property Name="GenderId" Type="int" />
+    <Property Name="WtaTId" Type="int" />
+    <Property Name="PlayerId" Type="int" />
+    <Property Name="Type" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_MatchScores_Matches">
+    <End Role="Matches" Type="Self.Matches" Multiplicity="1" />
+    <End Role="MatchScores" Type="Self.MatchScores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Matches">
+        <PropertyRef Name="MatchId" />
+      </Principal>
+      <Dependent Role="MatchScores">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SportsDataPanelModelStoreContainer">
+    <EntitySet Name="GrandSlamInfo" EntityType="Self.GrandSlamInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Matches" EntityType="Self.Matches" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MatchScores" EntityType="Self.MatchScores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PlayerOverview" EntityType="Self.PlayerOverview" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Players" EntityType="Self.Players" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RankingPlayersProfiles" EntityType="Self.RankingPlayersProfiles" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MatchScores_Matches" Association="Self.FK_MatchScores_Matches">
+      <End Role="Matches" EntitySet="Matches" />
+      <End Role="MatchScores" EntitySet="MatchScores" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,133 @@
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2015\Projects\TennisAPIAndScrappingService\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+E:\TennisAPIScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+D:\Projects\Git\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+E:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+E:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+E:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+E:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+E:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+E:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+D:\Projects\tennis-web-scrapper-win-service\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+C:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+C:\TennisScrapper\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+C:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+C:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+C:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache
+C:\TennisScrapper\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe.config
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.exe
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.pdb
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.exe
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\TennisAPIAndScrappingService.pdb
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\Dapper.dll
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\EntityFramework.dll
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.dll
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.dll
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\Dapper.xml
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\EntityFramework.xml
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.pdb
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\HtmlAgilityPack.xml
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\bin\Debug\Newtonsoft.Json.xml
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csprojResolveAssemblyReference.cache
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.ProjectInstaller.resources
+C:\Betway\Scrappers\Tennis\TennisAPIAndScrappingService\obj\Debug\TennisAPIAndScrappingService.csproj.GenerateResource.Cache

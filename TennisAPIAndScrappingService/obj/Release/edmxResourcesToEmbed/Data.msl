@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SportsDataPanelModelStoreContainer" CdmEntityContainer="SportsDataPanelEntities">
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="SportsDataPanelModel.Players">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="change_stamp" ColumnName="change_stamp" />
+          <ScalarProperty Name="StatsComPlayerId" ColumnName="StatsComPlayerId" />
+          <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
+          <ScalarProperty Name="CountryOfBirth" ColumnName="CountryOfBirth" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="SoccerwayPlayerId" ColumnName="SoccerwayPlayerId" />
+          <ScalarProperty Name="SharkScoresId" ColumnName="SharkScoresId" />
+          <ScalarProperty Name="CreatedByRole" ColumnName="CreatedByRole" />
+          <ScalarProperty Name="MatchedWithProvider" ColumnName="MatchedWithProvider" />
+          <ScalarProperty Name="SportingLifePlayerId" ColumnName="SportingLifePlayerId" />
+          <ScalarProperty Name="PlayerImage" ColumnName="PlayerImage" />
+          <ScalarProperty Name="BirthCountryId" ColumnName="BirthCountryId" />
+          <ScalarProperty Name="BirthCityId" ColumnName="BirthCityId" />
+          <ScalarProperty Name="PlayerAgent" ColumnName="PlayerAgent" />
+          <ScalarProperty Name="Foot" ColumnName="Foot" />
+          <ScalarProperty Name="MarketValue" ColumnName="MarketValue" />
+          <ScalarProperty Name="SportCCPlayerId" ColumnName="SportCCPlayerId" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Hand" ColumnName="Hand" />
+          <ScalarProperty Name="OtherName" ColumnName="OtherName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="PlayerPositionId" ColumnName="PlayerPositionId" />
+          <ScalarProperty Name="GenderId" ColumnName="GenderId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="SportId" ColumnName="SportId" />
+          <ScalarProperty Name="SystemId" ColumnName="SystemId" />
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GrandSlamInfo">
+      <EntityTypeMapping TypeName="SportsDataPanelModel.GrandSlamInfo">
+        <MappingFragment StoreEntitySet="GrandSlamInfo">
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="Wimbledon" ColumnName="Wimbledon" />
+          <ScalarProperty Name="RolandGarros" ColumnName="RolandGarros" />
+          <ScalarProperty Name="AustralianOpen" ColumnName="AustralianOpen" />
+          <ScalarProperty Name="UsOpen" ColumnName="UsOpen" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Matches">
+      <EntityTypeMapping TypeName="SportsDataPanelModel.Matches">
+        <MappingFragment StoreEntitySet="Matches">
+          <ScalarProperty Name="change_stamp" ColumnName="change_stamp" />
+          <ScalarProperty Name="LiveScoreMatchId" ColumnName="LiveScoreMatchId" />
+          <ScalarProperty Name="SportingbetMatchId" ColumnName="SportingbetMatchId" />
+          <ScalarProperty Name="CrawlFrom" ColumnName="CrawlFrom" />
+          <ScalarProperty Name="SharkScoresMatchId" ColumnName="SharkScoresMatchId" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="ProviderMatchId" ColumnName="ProviderMatchId" />
+          <ScalarProperty Name="CreatedByRole" ColumnName="CreatedByRole" />
+          <ScalarProperty Name="AutoCrawl" ColumnName="AutoCrawl" />
+          <ScalarProperty Name="CrawlerLink" ColumnName="CrawlerLink" />
+          <ScalarProperty Name="SportingLifeMatchDate" ColumnName="SportingLifeMatchDate" />
+          <ScalarProperty Name="AssignedToUserId" ColumnName="AssignedToUserId" />
+          <ScalarProperty Name="AssignDate" ColumnName="AssignDate" />
+          <ScalarProperty Name="AssignedByUserName" ColumnName="AssignedByUserName" />
+          <ScalarProperty Name="AssignedByUserId" ColumnName="AssignedByUserId" />
+          <ScalarProperty Name="IsLeagueTableUpdated" ColumnName="IsLeagueTableUpdated" />
+          <ScalarProperty Name="LastUpdatedTime" ColumnName="LastUpdatedTime" />
+          <ScalarProperty Name="SportCCMatchId" ColumnName="SportCCMatchId" />
+          <ScalarProperty Name="FirstToServe" ColumnName="FirstToServe" />
+          <ScalarProperty Name="MinutePlusBit" ColumnName="MinutePlusBit" />
+          <ScalarProperty Name="MinuteDifference" ColumnName="MinuteDifference" />
+          <ScalarProperty Name="FirstHalfEndTime" ColumnName="FirstHalfEndTime" />
+          <ScalarProperty Name="MatchStartTime" ColumnName="MatchStartTime" />
+          <ScalarProperty Name="CurrentMinutes" ColumnName="CurrentMinutes" />
+          <ScalarProperty Name="AwayTeamShirt" ColumnName="AwayTeamShirt" />
+          <ScalarProperty Name="HomeTeamShirt" ColumnName="HomeTeamShirt" />
+          <ScalarProperty Name="Lights" ColumnName="Lights" />
+          <ScalarProperty Name="IsLive" ColumnName="IsLive" />
+          <ScalarProperty Name="MatchDate" ColumnName="MatchDate" />
+          <ScalarProperty Name="MatchStatusId" ColumnName="MatchStatusId" />
+          <ScalarProperty Name="ContestGroupRoundId" ColumnName="ContestGroupRoundId" />
+          <ScalarProperty Name="ContestGroupId" ColumnName="ContestGroupId" />
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatchScores">
+      <EntityTypeMapping TypeName="SportsDataPanelModel.MatchScores">
+        <MappingFragment StoreEntitySet="MatchScores">
+          <ScalarProperty Name="change_stamp" ColumnName="change_stamp" />
+          <ScalarProperty Name="Verified" ColumnName="Verified" />
+          <ScalarProperty Name="EventCode" ColumnName="EventCode" />
+          <ScalarProperty Name="AwayTieBreakScore" ColumnName="AwayTieBreakScore" />
+          <ScalarProperty Name="HomeTieBreakScore" ColumnName="HomeTieBreakScore" />
+          <ScalarProperty Name="TieBreak" ColumnName="TieBreak" />
+          <ScalarProperty Name="AwayScore" ColumnName="AwayScore" />
+          <ScalarProperty Name="HomeScore" ColumnName="HomeScore" />
+          <ScalarProperty Name="ScoreInfoTypeId" ColumnName="ScoreInfoTypeId" />
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="MatchScoreId" ColumnName="MatchScoreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlayerOverview">
+      <EntityTypeMapping TypeName="SportsDataPanelModel.PlayerOverview">
+        <MappingFragment StoreEntitySet="PlayerOverview">
+          <ScalarProperty Name="YTDReturnGamesWon" ColumnName="YTDReturnGamesWon" />
+          <ScalarProperty Name="YTDServiceGamesWon" ColumnName="YTDServiceGamesWon" />
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="HighRankSingle" ColumnName="HighRankSingle" />
+          <ScalarProperty Name="WeekRankSingle" ColumnName="WeekRankSingle" />
+          <ScalarProperty Name="YTDMatchesLost" ColumnName="YTDMatchesLost" />
+          <ScalarProperty Name="CareerMatchesLost" ColumnName="CareerMatchesLost" />
+          <ScalarProperty Name="CareerDoublesTitle" ColumnName="CareerDoublesTitle" />
+          <ScalarProperty Name="YTDMatchWon" ColumnName="YTDMatchWon" />
+          <ScalarProperty Name="CareerMatchesWon" ColumnName="CareerMatchesWon" />
+          <ScalarProperty Name="CareerSingleTitle" ColumnName="CareerSingleTitle" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RankingPlayersProfiles">
+      <EntityTypeMapping TypeName="SportsDataPanelModel.RankingPlayersProfiles">
+        <MappingFragment StoreEntitySet="RankingPlayersProfiles">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="WtaTId" ColumnName="WtaTId" />
+          <ScalarProperty Name="GenderId" ColumnName="GenderId" />
+          <ScalarProperty Name="TurnPro" ColumnName="TurnPro" />
+          <ScalarProperty Name="PlayerPosition" ColumnName="PlayerPosition" />
+          <ScalarProperty Name="Residence" ColumnName="Residence" />
+          <ScalarProperty Name="CoachName" ColumnName="CoachName" />
+          <ScalarProperty Name="PlayerLink" ColumnName="PlayerLink" />
+          <ScalarProperty Name="AtpId" ColumnName="AtpId" />
+          <ScalarProperty Name="SportCCPlayerId" ColumnName="SportCCPlayerId" />
+          <ScalarProperty Name="NextBest" ColumnName="NextBest" />
+          <ScalarProperty Name="PointDropping" ColumnName="PointDropping" />
+          <ScalarProperty Name="TournPlayed" ColumnName="TournPlayed" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Ranking" ColumnName="Ranking" />
+          <ScalarProperty Name="MoveType" ColumnName="MoveType" />
+          <ScalarProperty Name="Move" ColumnName="Move" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

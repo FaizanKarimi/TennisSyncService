@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SportsDataPanelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SportsDataPanelEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Players" EntityType="SportsDataPanelModel.Players" />
+    <EntitySet Name="GrandSlamInfo" EntityType="SportsDataPanelModel.GrandSlamInfo" />
+    <EntitySet Name="Matches" EntityType="SportsDataPanelModel.Matches" />
+    <EntitySet Name="MatchScores" EntityType="SportsDataPanelModel.MatchScores" />
+    <AssociationSet Name="FK_MatchScores_Matches" Association="SportsDataPanelModel.FK_MatchScores_Matches">
+      <End Role="Matches" EntitySet="Matches" />
+      <End Role="MatchScores" EntitySet="MatchScores" />
+    </AssociationSet>
+    <EntitySet Name="PlayerOverview" EntityType="SportsDataPanelModel.PlayerOverview" />
+    <EntitySet Name="RankingPlayersProfiles" EntityType="SportsDataPanelModel.RankingPlayersProfiles" />
+  </EntityContainer>
+  <EntityType Name="Players">
+    <Key>
+      <PropertyRef Name="PlayerId" />
+    </Key>
+    <Property Name="PlayerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SystemId" Type="Int64" />
+    <Property Name="SportId" Type="Int16" Nullable="false" />
+    <Property Name="CountryId" Type="Int16" />
+    <Property Name="GenderId" Type="Int16" Nullable="false" />
+    <Property Name="PlayerPositionId" Type="Int16" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OtherName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Hand" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="Height" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Weight" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfBirth" Type="DateTime" Precision="3" />
+    <Property Name="SportCCPlayerId" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="MarketValue" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Foot" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PlayerAgent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BirthCityId" Type="Int16" />
+    <Property Name="BirthCountryId" Type="Int16" />
+    <Property Name="PlayerImage" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SportingLifePlayerId" Type="Int64" />
+    <Property Name="MatchedWithProvider" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedByRole" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="SharkScoresId" Type="Int32" />
+    <Property Name="SoccerwayPlayerId" Type="Int32" />
+    <Property Name="Age" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CountryOfBirth" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PlaceOfBirth" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StatsComPlayerId" Type="Int32" />
+    <Property Name="change_stamp" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="GrandSlamInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Year" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="UsOpen" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="AustralianOpen" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="RolandGarros" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Wimbledon" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PlayerId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Matches">
+    <Key>
+      <PropertyRef Name="MatchId" />
+    </Key>
+    <Property Name="MatchId" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ContestGroupId" Type="Int32" Nullable="false" />
+    <Property Name="ContestGroupRoundId" Type="Int32" />
+    <Property Name="MatchStatusId" Type="Int16" Nullable="false" />
+    <Property Name="MatchDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsLive" Type="Boolean" Nullable="false" />
+    <Property Name="Lights" Type="Boolean" Nullable="false" />
+    <Property Name="HomeTeamShirt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AwayTeamShirt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CurrentMinutes" Type="Int16" />
+    <Property Name="MatchStartTime" Type="DateTime" Precision="3" />
+    <Property Name="FirstHalfEndTime" Type="DateTime" Precision="3" />
+    <Property Name="MinuteDifference" Type="Int16" />
+    <Property Name="MinutePlusBit" Type="Boolean" />
+    <Property Name="FirstToServe" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="SportCCMatchId" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="LastUpdatedTime" Type="DateTime" Precision="3" />
+    <Property Name="IsLeagueTableUpdated" Type="Boolean" />
+    <Property Name="AssignedByUserId" Type="Guid" />
+    <Property Name="AssignedByUserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="AssignDate" Type="DateTime" Precision="3" />
+    <Property Name="AssignedToUserId" Type="Guid" />
+    <Property Name="SportingLifeMatchDate" Type="DateTime" Precision="3" />
+    <Property Name="CrawlerLink" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="AutoCrawl" Type="Boolean" />
+    <Property Name="CreatedByRole" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="ProviderMatchId" Type="Int64" />
+    <Property Name="Deleted" Type="Boolean" />
+    <Property Name="SharkScoresMatchId" Type="Int32" />
+    <Property Name="CrawlFrom" Type="Int32" />
+    <Property Name="SportingbetMatchId" Type="Int32" />
+    <Property Name="LiveScoreMatchId" Type="Int32" />
+    <Property Name="change_stamp" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="MatchScores" Relationship="SportsDataPanelModel.FK_MatchScores_Matches" FromRole="Matches" ToRole="MatchScores" />
+  </EntityType>
+  <EntityType Name="MatchScores">
+    <Key>
+      <PropertyRef Name="MatchScoreId" />
+    </Key>
+    <Property Name="MatchScoreId" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MatchId" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="ScoreInfoTypeId" Type="Int16" Nullable="false" />
+    <Property Name="HomeScore" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="AwayScore" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="TieBreak" Type="Boolean" />
+    <Property Name="HomeTieBreakScore" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="AwayTieBreakScore" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="EventCode" Type="Int64" />
+    <Property Name="Verified" Type="Boolean" />
+    <Property Name="change_stamp" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Matches" Relationship="SportsDataPanelModel.FK_MatchScores_Matches" FromRole="MatchScores" ToRole="Matches" />
+  </EntityType>
+  <Association Name="FK_MatchScores_Matches">
+    <End Type="SportsDataPanelModel.Matches" Role="Matches" Multiplicity="1" />
+    <End Type="SportsDataPanelModel.MatchScores" Role="MatchScores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Matches">
+        <PropertyRef Name="MatchId" />
+      </Principal>
+      <Dependent Role="MatchScores">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="PlayerOverview">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CareerSingleTitle" Type="Int32" />
+    <Property Name="CareerMatchesWon" Type="Int32" />
+    <Property Name="YTDMatchWon" Type="Int32" />
+    <Property Name="CareerDoublesTitle" Type="Int32" />
+    <Property Name="CareerMatchesLost" Type="Int32" />
+    <Property Name="YTDMatchesLost" Type="Int32" />
+    <Property Name="WeekRankSingle" Type="Int32" />
+    <Property Name="HighRankSingle" Type="Int32" />
+    <Property Name="PlayerId" Type="Int32" />
+    <Property Name="YTDServiceGamesWon" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="YTDReturnGamesWon" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="RankingPlayersProfiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Move" Type="Int32" />
+    <Property Name="MoveType" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Ranking" Type="Int32" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Points" Type="Int32" />
+    <Property Name="TournPlayed" Type="Int32" />
+    <Property Name="PointDropping" Type="Int32" />
+    <Property Name="NextBest" Type="Int32" />
+    <Property Name="SportCCPlayerId" Type="Int32" />
+    <Property Name="AtpId" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PlayerLink" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CoachName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Residence" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PlayerPosition" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TurnPro" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="GenderId" Type="Int32" />
+    <Property Name="WtaTId" Type="Int32" />
+    <Property Name="PlayerId" Type="Int32" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>
